@@ -7,7 +7,7 @@ from sendgrid.helpers.mail import (
 import csv
   
 # Open file 
-with open('file_name.csv',encoding='latin-1') as file_obj:
+with open('file_name.csv',encoding='latin-1') as file_obj: # Change to file name of csv for batch mailing
       
     # Create reader object by passing the file 
     # object to reader method
